@@ -7,9 +7,9 @@ version: 2
 
 # Set the OS, Python version and other tools you might need
 build:
-  os: ubuntu-24.04
+  os: centos7.9
   tools:
-    python: "3.13"
+    python: "3.6.8"
     # You can also specify other tool versions:
     # nodejs: "23"
     # rust: "1.82"
@@ -29,4 +29,4 @@ sphinx:
 # See https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html
 # python:
 #    install:
-#    - requirements: source/requirements.txt
+#    - requirements: docs/requirements.txt
