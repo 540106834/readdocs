@@ -16,7 +16,7 @@ release = 'v1.0'
 
 extensions = []
 
-templates_path = ['_templates']
+templates_path = ['_static']
 exclude_patterns = [
            'recommonmark',
            'sphinx_markdown'
